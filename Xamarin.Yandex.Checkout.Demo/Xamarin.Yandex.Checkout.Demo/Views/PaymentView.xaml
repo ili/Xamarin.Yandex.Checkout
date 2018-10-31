@@ -7,9 +7,9 @@
 				 x:TypeArguments="vm:PaymentViewModel">
 	<ContentPage.Content>
 		<StackLayout>
-			<Label Text="Welcome to demo payment!"
+			<Label Text="Enter the sum"
                 HorizontalOptions="CenterAndExpand" />
-			<Entry Text="{Binding Amount}"/>
+			<Entry Text="{Binding Amount, Mode=TwoWay}" Keyboard="Numeric" Placeholder="More then zero" />
 			<Button Command="{Binding ProcessPaymentCommand}" Text="Pay" HorizontalOptions="CenterAndExpand"/>
 		</StackLayout>
 	</ContentPage.Content>

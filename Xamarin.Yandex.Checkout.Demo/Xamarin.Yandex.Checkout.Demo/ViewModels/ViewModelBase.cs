@@ -5,7 +5,7 @@ namespace Xamarin.Yandex.Checkout.Demo.ViewModels
 {
 	public class ViewModelBase : ReactiveObject, IRoutableViewModel, ISupportsActivation
 	{
-		private string _urlPathSegment = string.Empty;
+		protected string _urlPathSegment = string.Empty;
 		public string UrlPathSegment => _urlPathSegment ?? (_urlPathSegment = GetType().FullName);
 
 		public IScreen HostScreen
