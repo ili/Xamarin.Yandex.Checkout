@@ -11,7 +11,8 @@ namespace Xamarin.Yandex.Checkout.Demo
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
+			var bootsrapper = new AppBootstrapper();
+			MainPage = bootsrapper.MainPage();
 		}
 
 		protected override void OnStart()

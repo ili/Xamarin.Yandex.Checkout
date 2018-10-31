@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ui:ContentPageBase xmlns="http://xamarin.com/schemas/2014/forms"
+				 xmlns:ui="clr-namespace:Xamarin.Yandex.Checkout.Demo.Views"
+				 xmlns:vm="clr-namespace:Xamarin.Yandex.Checkout.Demo.ViewModels"
+				 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+				 x:Class="Xamarin.Yandex.Checkout.Demo.Views.PaymentView"
+				 x:TypeArguments="vm:PaymentViewModel">
+	<ContentPage.Content>
+		<StackLayout>
+			<Label Text="Welcome to demo payment!"
+                HorizontalOptions="CenterAndExpand" />
+			<Entry Text="{Binding Amount}"/>
+			<Button Command="{Binding ProcessPaymentCommand}" Text="Pay" HorizontalOptions="CenterAndExpand"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ui:ContentPageBase>
