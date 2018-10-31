@@ -1,0 +1,52 @@
+﻿<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<attr path="/api/package[@name='com.yandex.money.api.processes']/interface[@name='Process']" name="visibility">public</attr>
+	<attr path="/api/package[@name='com.yandex.money.api.methods']/class[@name='AuxToken']/field[@name='auxToken']" name="managedName">Token</attr>
+	<attr path="/api/package[@name='com.yandex.money.api.methods']/class[@name='InstanceId']/field[@name='instanceId']" name="managedName">Id</attr>
+	<attr path="/api/package[@name='com.yandex.money.api.methods.payment.params']/class[@name='PaymentParams']/field[@name='paymentParams']" name="managedName">Params</attr>
+	<attr path="/api/package[@name='com.yandex.money.api.util']/class[@name='Common']/method[@name='checkNotEmpty' and count(parameter)=2 and parameter[1][@type='T'] and parameter[2][@type='java.lang.String']][1]" name="managedName">checkNotEmptyCollection</attr>
+	<attr path="/api/package[@name='com.yandex.money.api.net']/class[@name='DocumentApiRequest']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.yandex.money.api.net.HttpClientResponse']]" name="final">false</attr>
+	
+	<attr path="/api/package[@name='com.yandex.money.api.methods.payment']/class[@name='BaseRequestPayment.Builder']/method[@name='create' and count(parameter)=0]" name="managedName">CreateInstance</attr>
+	<attr path="/api/package[@name='com.yandex.money.api.methods.payment']/class[@name='BaseProcessPayment.Builder']/method[@name='create' and count(parameter)=0]" name="managedName">CreateInstance</attr>
+	
+	<remove-node path="/api/package[@name='com.yandex.money.api.model.showcase.components.uicontrols']/class[@name='ParameterControl.Builder']/method[@name='create' and count(parameter)=0]"/>
+	<remove-node path="/api/package[@name='com.yandex.money.api.model.showcase.components.uicontrols']/class[@name='Control.Builder']/method[@name='create' and count(parameter)=0]"/>
+	<attr path="/api/package[@name='com.yandex.money.api.model.showcase.components']/class[@name='Component.Builder']/method[@name='create' and count(parameter)=0]" name="managedName">CreateInstance</attr>
+
+	<add-node path="/api/package[@name='com.yandex.money.api.model.showcase.components.uicontrols']/class[@name='Checkbox.Builder']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="com.yandex.money.api.model.showcase.components.uicontrols.Checkbox" static="false" synchronized="false" visibility="public"/>
+	</add-node>
+	<add-node path="/api/package[@name='com.yandex.money.api.model.showcase.components.uicontrols']/class[@name='Select.Builder']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="com.yandex.money.api.model.showcase.components.uicontrols.Select" static="false" synchronized="false" visibility="public"/>
+	</add-node>
+	<add-node path="/api/package[@name='com.yandex.money.api.model.showcase.components.uicontrols']/class[@name='Date.Builder']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="com.yandex.money.api.model.showcase.components.uicontrols.Date" static="false" synchronized="false" visibility="public"/>
+	</add-node>
+	<add-node path="/api/package[@name='com.yandex.money.api.model.showcase.components.uicontrols']/class[@name='Number.Builder']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="com.yandex.money.api.model.showcase.components.uicontrols.Number" static="false" synchronized="false" visibility="public"/>
+	</add-node>
+	<add-node path="/api/package[@name='com.yandex.money.api.model.showcase.components.uicontrols']/class[@name='Submit.Builder']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="com.yandex.money.api.model.showcase.components.uicontrols.Submit" static="false" synchronized="false" visibility="public"/>
+	</add-node>
+	<add-node path="/api/package[@name='com.yandex.money.api.model.showcase.components.uicontrols']/class[@name='TextArea.Builder']">
+		<method abstract="false" deprecated="not deprecated" final="false" name="create" native="false" return="com.yandex.money.api.model.showcase.components.uicontrols.TextArea" static="false" synchronized="false" visibility="public"/>
+	</add-node>
+	
+	<add-node  path="/api/package[@name='com.yandex.money.api.net']/class[@name='BaseApiRequest']">
+		<method abstract="true" deprecated="not deprecated" final="false" name="parse" native="false" return="java.lang.Object" static="false" synchronized="false" visibility="public">
+			<parameter name="response" type="com.yandex.money.api.net.HttpClientResponse">
+			</parameter>
+			<exception name="Exception" type="java.lang.Exception">
+			</exception>
+		</method>
+	</add-node>
+	<attr path="/api/package[@name='com.yandex.money.api.net']/class[@name='DocumentApiRequest']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.yandex.money.api.net.HttpClientResponse']]" name="managedReturn">Java.Lang.Object</attr>
+	<attr path="/api/package[@name='com.yandex.money.api.model.showcase']/class[@name='Showcase.Request']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.yandex.money.api.net.HttpClientResponse']]" name="managedReturn">Java.Lang.Object</attr>
+</metadata>

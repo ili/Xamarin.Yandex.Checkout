@@ -1,0 +1,7 @@
+﻿<metadata>
+	<remove-node path="/api/package[@name='com.threatmetrix.TrustDefender']" />
+	<remove-node path="/api/package[@name='com.threatmetrix.TrustDefender.internal']" />
+	
+	<remove-node path="/api/package[@name='ru.yandex.money.android.sdk.utils']/class[@name='CheckoutConfirmationActivity']/method[@name='setTitle' and count(parameter)=1 and parameter[1][@type='java.lang.CharSequence']]"/>
+	
+</metadata>

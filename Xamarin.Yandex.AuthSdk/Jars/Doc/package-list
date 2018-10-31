@@ -1,0 +1,5 @@
+com.yandex.authsdk
+com.yandex.authsdk.exceptions
+com.yandex.authsdk.internal
+com.yandex.authsdk.internal.provider
+com.yandex.authsdk.internal.strategy
