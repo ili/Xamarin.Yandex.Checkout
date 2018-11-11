@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Xamarin.Yandex.Checkout</id>
+		<version>1.3.0.3-rc1</version>
+		<description>Unofficial Yandex Checkout mSDK Xamarin bindings</description>
+		<authors>ili</authors>
+		<owners>ili</owners>
+		<projectUrl>https://github.com/ili/Xamarin.Yandex.Checkout</projectUrl>
+		<licenseUrl>https://github.com/ili/Xamarin.Yandex.Checkout/blob/master/LICENSE.md</licenseUrl>
+		<copyright>2018, Ilya Chudin</copyright>
+		<tags>Xamarin, Yandex, Yandex Checkout, payments</tags>
+
+		<dependencies>
+			<group targetFramework="MonoAndroid81">
+				<dependency id="Karamunting.Kotlin.StdLib.Jdk7" version="1.2.71" />
+				<dependency id="Xamarin.GooglePlayServices.Wallet" version="70.1501.0-*" />
+				<dependency id="Xamarin.Android.Support.v4" version="27.0.2.1" />
+				<dependency id="Xamarin.Android.Support.v7.AppCompat" version="27.0.2.1" />
+				<dependency id="Xamarin.Android.Support.Design" version="27.0.2.1" />
+				<dependency id="Xamarin.Android.Support.Constraint.Layout" version="1.1.2" />
+				<dependency id="Square.OkHttp3" version="3.8.1" />
+				<dependency id="Naxam.SquareUp.OkHttp3.LoggingInterceptor" version="3.11.0" />
+				<dependency id="Yandex.Metrica.Xamarin" version="2.0.0" />
+				<dependency id="Xamarin.Tinkoff.Decoro" version="1.3.4-*" />
+				<dependency id="Xamarin.Yandex.AuthSdk" version="2.1.1-*" />
+				<dependency id="Xamarin.Yandex.Money.Android" version="4.1.0-*" />
+				<dependency id="Xamarin.Yandex.Money.Java" version="7.1.0-*" />
+			</group>
+		</dependencies>
+
+	</metadata>
+	
+	<files>
+		<file src="..\Xamarin.Yandex.Checkout.Android\bin\Release\Xamarin.Yandex.Checkout.Android.*" target="lib\MonoAndroid81"/>
+	</files>
+</package>

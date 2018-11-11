@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Xamarin.Yandex.Money.Android</id>
+		<version>4.1.0-rc1</version>
+		<description>Unofficial Yandex Money Android Xamarin bindings</description>
+		<authors>ili</authors>
+		<owners>ili</owners>
+		<projectUrl>https://github.com/ili/Xamarin.Yandex.Checkout</projectUrl>
+		<licenseUrl>https://github.com/ili/Xamarin.Yandex.Checkout/blob/master/LICENSE.md</licenseUrl>
+		<copyright>2018, Ilya Chudin</copyright>
+		<tags>Xamarin, Yandex, Yandex Money, payments, Android</tags>
+
+		<dependencies>
+			<group targetFramework="MonoAndroid81">
+				<dependency id="Xamarin.Yandex.Money.Java" version="7.1.0-*" />
+			</group>
+		</dependencies>
+
+	</metadata>
+
+	<files>
+		<file src="..\Xamarin.Yandex.Money.Android\bin\Release\Xamarin.Yandex.Money.Android.*" target="lib\MonoAndroid81"/>
+	</files>
+</package>

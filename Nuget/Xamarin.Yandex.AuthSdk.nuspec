@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>Xamarin.Yandex.AuthSdk</id>
+		<version>2.1.1-rc1</version>
+		<description>Unofficial Yandex AuthSdk Xamarin bindings</description>
+		<authors>ili</authors>
+		<owners>ili</owners>
+		<projectUrl>https://github.com/ili/Xamarin.Yandex.Checkout</projectUrl>
+		<licenseUrl>https://github.com/ili/Xamarin.Yandex.Checkout/blob/master/LICENSE.md</licenseUrl>
+		<copyright>2018, Ilya Chudin</copyright>
+		<tags>Xamarin, Yandex</tags>
+
+		<dependencies>
+			<group targetFramework="MonoAndroid81">
+			</group>
+		</dependencies>
+
+	</metadata>
+
+	<files>
+		<file src="..\Xamarin.Yandex.AuthSdk\bin\Release\Xamarin.Yandex.AuthSdk.*" target="lib\MonoAndroid81"/>
+	</files>
+</package>

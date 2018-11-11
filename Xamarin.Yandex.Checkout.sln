@@ -21,6 +21,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Yandex.AuthSdk", "X
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Tinkoff.Decoro", "Xamarin.Tinkoff.Decoro\Xamarin.Tinkoff.Decoro.csproj", "{FCA1642D-6C8D-441C-AFB9-6E8B210D54C6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{8073BBF2-4BC4-4BF6-928A-80DEBD338816}"
+	ProjectSection(SolutionItems) = preProject
+		Nuget\Xamarin.Yandex.AuthSdk.nuspec = Nuget\Xamarin.Yandex.AuthSdk.nuspec
+		Nuget\Xamarin.Yandex.Checkout.nuspec = Nuget\Xamarin.Yandex.Checkout.nuspec
+		Nuget\Xamarin.Yandex.Money.Android.nuspec = Nuget\Xamarin.Yandex.Money.Android.nuspec
+		Nuget\Xamarin.Yandex.Money.Java.nuspec = Nuget\Xamarin.Yandex.Money.Java.nuspec
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
