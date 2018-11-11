@@ -3,17 +3,21 @@
 	<metadata>
 		<id>Xamarin.Yandex.Money.Android</id>
 		<version>4.1.0-rc1</version>
-		<description>Unofficial Yandex Money Android Xamarin bindings</description>
+		<description>Unofficial Yandex Money Android SDK (com.yandex.money.api:yandex-money-sdk-android) Xamarin bindings</description>
+		<summary>Unofficial Yandex Money Android SDK (com.yandex.money.api:yandex-money-sdk-android) Xamarin bindings</summary>
+		<title>Unofficial Yandex Money Android SDK (com.yandex.money.api:yandex-money-sdk-android) Xamarin bindings</title>
 		<authors>ili</authors>
 		<owners>ili</owners>
 		<projectUrl>https://github.com/ili/Xamarin.Yandex.Checkout</projectUrl>
 		<licenseUrl>https://github.com/ili/Xamarin.Yandex.Checkout/blob/master/LICENSE.md</licenseUrl>
 		<copyright>2018, Ilya Chudin</copyright>
-		<tags>Xamarin, Yandex, Yandex Money, payments, Android</tags>
+		<tags>Xamarin Yandex payments Android</tags>
+		<repository type="git" url="https://github.com/ili/Xamarin.Yandex.Checkout.git" />
+		<iconUrl>https://10428.https.cdn.softlayer.net/8010428/dal05.objectstorage.softlayer.net/v1/AUTH_3c173d3a-8847-45dc-9d93-faf1d6e70fe5/avatars/1cb0b2b9-ecf5-4107-8483-da7c092462f0</iconUrl>
 
 		<dependencies>
 			<group targetFramework="MonoAndroid81">
-				<dependency id="Xamarin.Yandex.Money.Java" version="7.1.0-*" />
+				<dependency id="Xamarin.Yandex.Money.Java" version="7.1.0-rc1" />
 			</group>
 		</dependencies>
 

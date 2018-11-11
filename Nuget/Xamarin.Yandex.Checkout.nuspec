@@ -3,18 +3,22 @@
 	<metadata>
 		<id>Xamarin.Yandex.Checkout</id>
 		<version>1.3.0.3-rc1</version>
-		<description>Unofficial Yandex Checkout mSDK Xamarin bindings</description>
+		<description>Unofficial Yandex Checkout mSDK (com.yandex.money:checkout) Xamarin bindings</description>
+		<summary>Unofficial Yandex Checkout mSDK (com.yandex.money:checkout) Xamarin bindings</summary>
+		<title>Unofficial Yandex Checkout mSDK (com.yandex.money:checkout) Xamarin bindings</title>
 		<authors>ili</authors>
 		<owners>ili</owners>
 		<projectUrl>https://github.com/ili/Xamarin.Yandex.Checkout</projectUrl>
 		<licenseUrl>https://github.com/ili/Xamarin.Yandex.Checkout/blob/master/LICENSE.md</licenseUrl>
 		<copyright>2018, Ilya Chudin</copyright>
-		<tags>Xamarin, Yandex, Yandex Checkout, payments</tags>
+		<tags>Xamarin Yandex Checkout payments</tags>
+		<repository type="git" url="https://github.com/ili/Xamarin.Yandex.Checkout.git" />
+		<iconUrl>https://10428.https.cdn.softlayer.net/8010428/dal05.objectstorage.softlayer.net/v1/AUTH_3c173d3a-8847-45dc-9d93-faf1d6e70fe5/avatars/1cb0b2b9-ecf5-4107-8483-da7c092462f0</iconUrl>
 
 		<dependencies>
 			<group targetFramework="MonoAndroid81">
 				<dependency id="Karamunting.Kotlin.StdLib.Jdk7" version="1.2.71" />
-				<dependency id="Xamarin.GooglePlayServices.Wallet" version="70.1501.0-*" />
+				<dependency id="Xamarin.GooglePlayServices.Wallet" version="70.1501.0-preview2" />
 				<dependency id="Xamarin.Android.Support.v4" version="27.0.2.1" />
 				<dependency id="Xamarin.Android.Support.v7.AppCompat" version="27.0.2.1" />
 				<dependency id="Xamarin.Android.Support.Design" version="27.0.2.1" />
@@ -22,10 +26,10 @@
 				<dependency id="Square.OkHttp3" version="3.8.1" />
 				<dependency id="Naxam.SquareUp.OkHttp3.LoggingInterceptor" version="3.11.0" />
 				<dependency id="Yandex.Metrica.Xamarin" version="2.0.0" />
-				<dependency id="Xamarin.Tinkoff.Decoro" version="1.3.4-*" />
-				<dependency id="Xamarin.Yandex.AuthSdk" version="2.1.1-*" />
-				<dependency id="Xamarin.Yandex.Money.Android" version="4.1.0-*" />
-				<dependency id="Xamarin.Yandex.Money.Java" version="7.1.0-*" />
+				<dependency id="Xamarin.Tinkoff.Decoro" version="1.3.4-rc1" />
+				<dependency id="Xamarin.Yandex.AuthSdk" version="2.1.1-rc1" />
+				<dependency id="Xamarin.Yandex.Money.Android" version="4.1.0-rc1" />
+				<dependency id="Xamarin.Yandex.Money.Java" version="7.1.0-rc1" />
 			</group>
 		</dependencies>
 

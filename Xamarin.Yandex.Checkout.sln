@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Tinkoff.Decoro", "X
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{8073BBF2-4BC4-4BF6-928A-80DEBD338816}"
 	ProjectSection(SolutionItems) = preProject
+		Nuget\pack.ps1 = Nuget\pack.ps1
+		Nuget\Xamarin.Tinkoff.Decoro.nuspec = Nuget\Xamarin.Tinkoff.Decoro.nuspec
 		Nuget\Xamarin.Yandex.AuthSdk.nuspec = Nuget\Xamarin.Yandex.AuthSdk.nuspec
 		Nuget\Xamarin.Yandex.Checkout.nuspec = Nuget\Xamarin.Yandex.Checkout.nuspec
 		Nuget\Xamarin.Yandex.Money.Android.nuspec = Nuget\Xamarin.Yandex.Money.Android.nuspec

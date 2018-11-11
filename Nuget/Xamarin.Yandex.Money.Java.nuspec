@@ -1,15 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
-		<id>Xamarin.Tinkoff.Decoro</id>
-		<version>1.3.4-rc1</version>
-		<description>Unofficial Tinkoff Decoro Xamarin bindings</description>
+		<id>Xamarin.Yandex.Money.Java</id>
+		<version>7.1.0-rc1</version>
+		<description>Unofficial Yandex Money Java SDK (com.yandex.money.api:yandex-money-sdk-java) Xamarin bindings</description>
+		<summary>Unofficial Yandex Money Java SDK (com.yandex.money.api:yandex-money-sdk-java) Xamarin bindings</summary>
+		<title>Unofficial Yandex Money Java SDK (com.yandex.money.api:yandex-money-sdk-java) Xamarin bindings</title>
 		<authors>ili</authors>
 		<owners>ili</owners>
 		<projectUrl>https://github.com/ili/Xamarin.Yandex.Checkout</projectUrl>
 		<licenseUrl>https://github.com/ili/Xamarin.Yandex.Checkout/blob/master/LICENSE.md</licenseUrl>
 		<copyright>2018, Ilya Chudin</copyright>
-		<tags>Xamarin, Tinkoff, Tinkoff Decoro</tags>
+		<tags>Xamarin Yandex payments</tags>
+		<repository type="git" url="https://github.com/ili/Xamarin.Yandex.Checkout.git" />
+		<iconUrl>https://10428.https.cdn.softlayer.net/8010428/dal05.objectstorage.softlayer.net/v1/AUTH_3c173d3a-8847-45dc-9d93-faf1d6e70fe5/avatars/1cb0b2b9-ecf5-4107-8483-da7c092462f0</iconUrl>
 
 		<dependencies>
 			<group targetFramework="MonoAndroid81">
@@ -17,8 +21,8 @@
 		</dependencies>
 
 	</metadata>
-
+	
 	<files>
-		<file src="..\Xamarin.Tinkoff.Decoro\bin\Release\Xamarin.Tinkoff.Decoro.*" target="lib\MonoAndroid81"/>
+		<file src="..\Xamarin.Yandex.Money.Java\bin\Release\Xamarin.Yandex.Money.Java.*" target="lib\MonoAndroid81"/>
 	</files>
 </package>

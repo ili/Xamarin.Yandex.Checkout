@@ -3,13 +3,17 @@
 	<metadata>
 		<id>Xamarin.Yandex.AuthSdk</id>
 		<version>2.1.1-rc1</version>
-		<description>Unofficial Yandex AuthSdk Xamarin bindings</description>
+		<description>Unofficial com.yandex.android:authsdk Xamarin bindings</description>
+		<summary>Unofficial com.yandex.android:authsdk Xamarin bindings</summary>
+		<title>Unofficial com.yandex.android:authsdk Xamarin bindings</title>
 		<authors>ili</authors>
 		<owners>ili</owners>
 		<projectUrl>https://github.com/ili/Xamarin.Yandex.Checkout</projectUrl>
 		<licenseUrl>https://github.com/ili/Xamarin.Yandex.Checkout/blob/master/LICENSE.md</licenseUrl>
 		<copyright>2018, Ilya Chudin</copyright>
-		<tags>Xamarin, Yandex</tags>
+		<tags>Xamarin Yandex</tags>
+		<repository type="git" url="https://github.com/ili/Xamarin.Yandex.Checkout.git" />
+		<iconUrl>https://d2j3q9yua85jt3.cloudfront.net/img/98ef3107d826c6f1045ae11cb9707073</iconUrl>
 
 		<dependencies>
 			<group targetFramework="MonoAndroid81">
