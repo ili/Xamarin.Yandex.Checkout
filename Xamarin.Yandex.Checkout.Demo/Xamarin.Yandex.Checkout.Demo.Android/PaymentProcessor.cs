@@ -43,8 +43,12 @@ namespace Xamarin.Yandex.Checkout.Demo.Droid
 
 			Checkout.Tokenize(_applicationContext,
 				new Amount(new Java.Math.BigDecimal((double)amount), Java.Util.Currency.GetInstance("RUB")),
-				new ShopParameters("Urahara shop", "All stuff you need and some more", "test_NTM5MDU47tPjgzXC7lWLEa11A4gzljyBDRkQkjvu7T4",
-				new PaymentMethodType[] { PaymentMethodType.BankCard, PaymentMethodType.GooglePay }));
+				new ShopParameters("Urahara shop",
+				"All stuff you need and some more",
+				"test_NTM5MDU47tPjgzXC7lWLEa11A4gzljyBDRkQkjvu7T4",
+				new PaymentMethodType[] { PaymentMethodType.BankCard, PaymentMethodType.GooglePay },
+				true,
+				"539058"));
 
 			return res;
 
